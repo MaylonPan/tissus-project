@@ -17,8 +17,8 @@ function Navbar() {
               src="/logo-white.png"/>
             </Link>
           </div>
-          <div className=''>
-            <ul className=' gap-15 items-center text-[#dcdcdc] hidden md:flex'>
+          <div>
+            <ul className='gap-20 items-center hidden md:flex'>
               <li className='hover:text-white'>
                 <Link to="/about">
                 <p>About</p>

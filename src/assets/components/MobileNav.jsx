@@ -13,13 +13,13 @@ import { AlignJustify } from 'lucide-react'
 
 function MobileNav() {
   return (
-    <div>
+    <div className='md:hidden'>
         <Sheet>
             <SheetTrigger className='text-white hover:cursor-pointer'>
                 <AlignJustify className='size-10 flex h-auto' />
             </SheetTrigger>
             <SheetContent  className='bg-[#333] border-0'>
-                <ul className='gap-30 items-center text-[#dcdcdc] text-2xl flex flex-col mt-50'>
+                <ul className='gap-30 items-center text-2xl flex flex-col mt-50'>
                     <li className='hover:text-white'>
                         <Link to="/">
                         <p>Home</p>
