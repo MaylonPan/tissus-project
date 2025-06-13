@@ -2,9 +2,10 @@ import React from 'react';
 import Navbar from "../assets/components/Navbar.jsx";
 import Footer from '../assets/components/Footer';
 import { CircleArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { gsap } from "gsap";
 
-gsap.from("h3,h5,h6,p,input", {
+gsap.from("h3,h4,h5,h6,p,input,span", {
     y: 100, // เลื่อนจาก 100px ด้านล่าง
     opacity: 0, // เริ่มจาก opacity 0
     duration: 1, // ใช้เวลา 1 วินาที
@@ -17,17 +18,120 @@ function Home() {
     <div>
       <div>
         <Navbar />
+        {/* Head */}
         <div>
-          <img src="/astra-sky-river/astra-sr1.jpg" id='landingImg'/>
-          <div>
+          <img src="/astra-sky-river/astra-sr1.jpg" id='landingImg' className='relative w-screen'/>
+          <div className='absolute bottom-80 pl-5'>
             <div className='flex'>
               <h5 className='text-[3rem]'>PROFESSIONAL ADVICE</h5>
-              <CircleArrowRight className='sm:hidden'/>
+
             </div>
             <div>
               <h6 className='text-[3rem]'>FROM OUR DESIGNER</h6>
-              <p className='text-[1.5rem] my-10'>Our studio guarantees comfortable cooperation and the development of modern concepts for your home</p>
-              <CircleArrowRight className='md:hidden size-17'/>
+              <p className='text-[1.5rem] my-8'>Our studio guarantees comfortable cooperation and the development of modern concepts for your home</p>
+              <CircleArrowRight className='md:hidden size-18 hover:cursor-pointer'/>
+            </div>
+          </div>
+        </div>
+        {/* About */}
+        <div className='mt-20'>
+          <h5 className='text-[3rem] mb-5 pl-5'>ABOUT US</h5>
+          <div>
+            <p className='mb-5 pl-5 text-[1.25rem]'>Our studio specializes in creating concepts of modern interior solutions and their subsequent implementation.</p>
+            <p className='pl-5 text-[1.25rem]'>We have a lot of experience, and it helps to easily solve any issues and keep abreast of trends.</p>
+            <img src="/astra-sky-river/astra-sr3.jpg" className='mt-5 w-screen'/>
+            <div className='flex items-center h-20 mt-5 gap-5 pl-5'>
+              <p className='text-[1.5rem]'>LEARN MORE</p>
+              <Link to='/about'>
+                <CircleArrowRight className='size-10 hover:cursor-pointer'/>
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* Stats */}
+        <div className='mt-20'>
+          <div className='grid grid-cols-2 pl-5 gap-10'>
+            <div className='w-40'>
+              <p id='stat'>10+</p>
+              <p id='statDesc'>years of work <br/> of our agancy</p>
+            </div>
+            <div className='w-40'>
+              <p id='stat'>30+</p>
+              <p id='statDesc'>achitectural projects</p>
+            </div>
+            <div className='w-40'>
+              <p id='stat'>40+</p>
+              <p id='statDesc'>reiable suppliers</p>
+            </div>
+            <div className='w-40'>
+              <p id='stat'>200+</p>
+              <p id='statDesc'>created unique interiors</p>
+            </div>
+          </div>
+          <img src="/wolf-house/wolf1.png" className='w-screen mt-5'/>
+        </div>
+        {/* Services */}
+        <div className='mt-20 pl-5'>
+          <div className='mb-5'>
+            <h3 className='text-[2rem]'>OUR</h3>
+            <h5 className='text-[3rem]'>SERVICES</h5>
+          </div>
+          <div className=''>
+            <div className='mb-5'>
+              <p className='text-[1.5rem]'>Residential design</p>
+              <p>Our design studio is ready to help develop a unique, modern and convenient project for your apartment, taking into account your desires, ideas and views</p>
+            </div>
+            <div className='mb-5'>
+              <p className='text-[1.5rem]'>Office design</p>
+              <p>The main task of the studio is to make the workspace harmonious and comfortable. It is this kind of environment that encourages employees to work productively</p>
+            </div>
+            <div className='mb-5'>
+              <p className='text-[1.5rem]'>Commercial space design</p>
+              <p>Often people like to return to those places where they liked not only the service, but also the pleasant atmosphere of the room, which caused emotions</p>
+            </div>
+          </div>
+        </div>
+        {/* Our Work */}
+        <div className='mt-20 pl-5'>
+          <div>
+            <h3>WHAT IS</h3>
+            <h5>OUR WORK</h5>
+          </div>
+          <img src="/arise-charoenmuang/arise-crm2.jpg"/>
+          <div className='mt-5 flex flex-col gap-5'>
+            <div>
+              <h4>Measurement</h4>
+              <p>Measuring a room is a complex of works that is formed for each room using modern equipment. It is on the basis of the received data that all layouts and drawings are created</p>
+            </div>
+            <div>
+              <h4>Concept</h4>
+              <p>The concept is created taking into account the finishing, design, planning solution. Designers develop up to three solutions to make it easier for the customer to choose the option they like</p>
+            </div>
+            <div>
+              <h4>Visualization</h4>
+              <p>Visualization is a three-dimensional image of a room with all the details of the future interior included in it. This allows you to assess the situation as accurately as possible and clearly demonstrable to the customer</p>
+            </div>
+            <div>
+              <h4>Construction</h4>
+              <p>Transfer of the working drawing to the construction department, which will bring the idea to life and bring it to an ideal result</p>
+            </div>
+          </div>
+        </div>
+        {/* Projects */}
+        <div className='mt-20 pl-5'>
+          <div>
+            <h3>OUR</h3>
+            <h5>COMPLETED PROJECTS</h5>
+          </div>
+          <div>
+            <div>
+              <img src=""/>
+              <div>
+                <img src=""/>
+                <p id='projectName'>THE ASTRA SKY RIVER CONDOMINUIM</p>
+                <p className='font-semibold'>Owner : <span className='font-thin'>Onsirin</span></p>
+                <p className='font-semibold'>Location : <span className='font-thin'>Chiangmai</span></p>
+              </div>
             </div>
           </div>
         </div>

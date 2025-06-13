@@ -19,20 +19,35 @@ h3 {
     font-size: 1.5rem;
 }
 
+h4 {
+    font-size: 2rem;
+}
+
 h5 {
     word-spacing: 20px;
+    font-size: 3rem;
 }
 
 h6 {
     word-spacing: 5px;
 }
 
-p {
+#projectName {
+    font-size: 1.5rem;
+}
+
+
+#stat {
+    font-size: 3rem;
+    border-bottom: 1px solid;
+}
+
+#statDesc {
     font-size: 1.25rem;
 }
 
 #landingImg {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 @theme inline {
