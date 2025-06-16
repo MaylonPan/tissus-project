@@ -1,16 +1,17 @@
 import React from 'react';
 import Navbar from "../assets/components/Navbar.jsx";
 import Footer from '../assets/components/Footer';
+import ProjectCard from '../assets/components/ProjectCard.jsx';
 import { CircleArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { gsap } from "gsap";
 
-gsap.from("h3,h4,h5,h6,p,input,span", {
-    y: 100, // เลื่อนจาก 100px ด้านล่าง
-    opacity: 0, // เริ่มจาก opacity 0
-    duration: 1, // ใช้เวลา 1 วินาที
-    delay: 0.5, // หน่วงเวลา 0.5 วินาที
-    ease: "power2.out" // ชนิดของ easing
+gsap.from("h3,h4,h5,h6,p,input,span,img", {
+    y: 100,
+    opacity: 0,
+    duration: 1,
+    delay: 0.5,
+    ease: "power2.out"
 });
 
 function Home() {
@@ -20,16 +21,17 @@ function Home() {
         <Navbar />
         {/* Head */}
         <div>
-          <img src="/astra-sky-river/astra-sr1.jpg" id='landingImg' className='relative w-screen'/>
-          <div className='absolute bottom-80 pl-5'>
-            <div className='flex'>
-              <h5 className='text-[3rem]'>PROFESSIONAL ADVICE</h5>
-
-            </div>
-            <div>
-              <h6 className='text-[3rem]'>FROM OUR DESIGNER</h6>
-              <p className='text-[1.5rem] my-8'>Our studio guarantees comfortable cooperation and the development of modern concepts for your home</p>
-              <CircleArrowRight className='md:hidden size-18 hover:cursor-pointer'/>
+          <div className='relative'>
+            <img src="/astra-sky-river/astra-sr1.jpg" id='headerImg' className='w-screen'/>
+            <div className='absolute bottom-0 pl-5'>
+              <div className='flex'>
+                <h5 className='text-[3rem]'>PROFESSIONAL ADVICE</h5>
+              </div>
+              <div>
+                <h6 className='text-[3rem]'>FROM OUR DESIGNER</h6>
+                <p className='text-[1.5rem] my-8'>Our studio guarantees comfortable cooperation and the development of modern concepts for your home</p>
+                <CircleArrowRight className='md:hidden size-18 hover:cursor-pointer'/>
+              </div>
             </div>
           </div>
         </div>
@@ -68,7 +70,7 @@ function Home() {
               <p id='statDesc'>created unique interiors</p>
             </div>
           </div>
-          <img src="/wolf-house/wolf1.png" className='w-screen mt-5'/>
+          <img src="/wolf-house/wolf1.jpg" className='w-screen mt-5'/>
         </div>
         {/* Services */}
         <div className='mt-20 pl-5'>
@@ -118,21 +120,36 @@ function Home() {
           </div>
         </div>
         {/* Projects */}
-        <div className='mt-20 pl-5'>
+        <div className='mt-20 pl-5 pr-5'>
           <div>
             <h3>OUR</h3>
             <h5>COMPLETED PROJECTS</h5>
           </div>
-          <div>
-            <div>
-              <img src=""/>
-              <div>
-                <img src=""/>
-                <p id='projectName'>THE ASTRA SKY RIVER CONDOMINUIM</p>
-                <p className='font-semibold'>Owner : <span className='font-thin'>Onsirin</span></p>
-                <p className='font-semibold'>Location : <span className='font-thin'>Chiangmai</span></p>
-              </div>
-            </div>
+          <div className='mt-10'>
+            <ProjectCard
+            imageUrl="/astra-sky-river/astra-sr3.jpg"
+            ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+            Owner="Ornsirin"
+            Location="Chiangmai"
+            />
+            <ProjectCard
+            imageUrl="/wolf-house/wolf1.jpg"
+            ProjectName="PROJECT WOLF HOUSE"
+            Owner="The Crown"
+            Location="Chiangmai"
+            />
+            <ProjectCard
+            imageUrl="/arise-mahidol/arise-mahidol1.jpg"
+            ProjectName="ARISE CONDO @MAHIDOL"
+            Owner="Ornsirin"
+            Location="Chiangmai"
+            />
+          </div>
+          <div className='flex justify-end mt-10 mb-30 gap-5'>
+            <p className='text-[1.5rem]'>More</p>
+            <Link to='/project'>
+              <CircleArrowRight className='size-10 hover:cursor-pointer'/>
+            </Link>
           </div>
         </div>
         <Footer />

@@ -37,7 +37,7 @@ function MobileNav() {
                     </li>
                     <li className='hover:text-white'>
                         <Link to="/contact">
-                        <p>Contact</p>
+                        <p>Contacts</p>
                         </Link>
                     </li>
                 </ul>
