@@ -8,7 +8,7 @@ function Contact() {
     <div>
       <Navbar />
       <div>
-        <div className='relative'>
+        <div className='relative md:hidden'>
           <img src="/contact.png" id='headerImg' className='relative w-screen'/>
           <div className='absolute bottom-5 pl-5'>
             <div className='flex'>
@@ -35,6 +35,16 @@ function Contact() {
           </div>
         </div>
       </div>
+      <div className='hidden md:flex'>
+            <div className=' w-1/2 flex flex-col justify-center'>
+              <p className='text-[4rem] pl-5'>ABOUT</p>
+              <div className='pl-5 mt-10 w-100'>
+                <p>Our studio specializes in creating concepts of modern interior solutions and  their subsequent implementation.</p>
+                <p>We have a lot of experience, and it helps to easily solve any issues and keep abreast of trends.</p>
+              </div>
+            </div>
+            <img src="/astra-sky-river/astra-sr4.png" id='headerImg' className='w-2/3'/>
+          </div>
       <Footer />
     </div>
   )

@@ -13,7 +13,7 @@ import { AlignJustify } from 'lucide-react'
 
 function MobileNav() {
   return (
-    <div className='md:hidden'>
+    <div className='md:hidden position-fixed'>
         <Sheet>
             <SheetTrigger className='text-white hover:cursor-pointer'>
                 <AlignJustify className='size-10 flex h-auto' />

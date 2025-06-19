@@ -38,7 +38,7 @@ function Home() {
 
         <div className='hidden md:flex  relative'>
           <div className='w-2/3'>
-            <img src="/astra-sky-river/astra-sr1.jpg" id='headerImg' className=''/>
+            <img src="/astra-sky-river/astra-sr1.jpg" id='headerImg'/>
             <div className='absolute bottom-0'>
               <p className='text-[3rem]'>PROFESSIONAL ADVICE</p>
               <div className='flex my-8'>
@@ -122,23 +122,25 @@ function Home() {
             <h3>WHAT IS</h3>
             <p className='text-[3rem]'>OUR WORK</p>
           </div>
-          <img src="/arise-charoenmuang/arise-crm2.jpg"/>
-          <div className='mt-5 flex flex-col gap-5'>
-            <div>
-              <h4>Measurement</h4>
-              <p>Measuring a room is a complex of works that is formed for each room using modern equipment. It is on the basis of the received data that all layouts and drawings are created</p>
-            </div>
-            <div>
-              <h4>Concept</h4>
-              <p>The concept is created taking into account the finishing, design, planning solution. Designers develop up to three solutions to make it easier for the customer to choose the option they like</p>
-            </div>
-            <div>
-              <h4>Visualization</h4>
-              <p>Visualization is a three-dimensional image of a room with all the details of the future interior included in it. This allows you to assess the situation as accurately as possible and clearly demonstrable to the customer</p>
-            </div>
-            <div>
-              <h4>Construction</h4>
-              <p>Transfer of the working drawing to the construction department, which will bring the idea to life and bring it to an ideal result</p>
+          <div className='mr-10 md:flex'>
+            <img src="/arise-charoenmuang/arise-crm2.jpg" className='md:w-1/2 object-cover'/>
+            <div className='mt-5 flex flex-col gap-5 md:w-1/2 md:ml-10'>
+              <div className='border-b-1 pb-5 md:flex md:gap-5 h-full'>
+                <h4 className='w-1/2'>Measurement</h4>
+                <p className='w-1/2'>Measuring a room is a complex of works that is formed for each room using modern equipment. It is on the basis of the received data that all layouts and drawings are created</p>
+              </div>
+              <div className='border-b-1 pb-5 md:flex md:gap-5'>
+                <h4 className='w-1/2'>Concept</h4>
+                <p className='w-1/2'>The concept is created taking into account the finishing, design, planning solution. Designers develop up to three solutions to make it easier for the customer to choose the option they like</p>
+              </div>
+              <div className='border-b-1 pb-5 md:flex md:gap-5'>
+                <h4 className='w-1/2'>Visualization</h4>
+                <p className='w-1/2'>Visualization is a three-dimensional image of a room with all the details of the future interior included in it. This allows you to assess the situation as accurately as possible and clearly demonstrable to the customer</p>
+              </div>
+              <div className='border-b-1 pb-5 md:flex md:gap-5'>
+                <h4 className='w-1/2'>Construction</h4>
+                <p className='w-1/2'>Transfer of the working drawing to the construction department, which will bring the idea to life and bring it to an ideal result</p>
+              </div>
             </div>
           </div>
         </div>
@@ -169,8 +171,8 @@ function Home() {
             />
           </div>
           <div className='flex justify-end mt-10 mb-30 gap-5'>
-            <p className='text-[1.5rem]'>More</p>
-            <Link to='/project'>
+            <Link to='/project' className='flex items-center gap-5'>
+              <p className='text-xl animated-underline'>More</p>
               <CircleArrowRight className='size-10 hover:cursor-pointer'/>
             </Link>
           </div>

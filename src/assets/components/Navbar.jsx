@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <div className='flex justify-center'>
-        <nav className='container w-full flex justify-between items-center border-b-1 border-[#dcdcdc]'>
+        <nav className='container w-full flex justify-between items-center border-b-1 border-[#dcdcdc] fixed z-99'>
           <div className='flex justify-center items-center ml-5 mt-2 pb-2'>
             <Link to="/">
               <img
