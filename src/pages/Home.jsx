@@ -49,14 +49,14 @@ function Home() {
           </div>
         </div>
         {/* About */}
-        <div className='mt-20 md:flex'>
+        <div className='mt-30 md:flex'>
           <div className='md:w-1/3'>
             <p className='text-[3rem] mb-5 pl-5 md:text-[3rem]'>ABOUT US</p>
             <p className='hidden md:flex mb-5 pl-5 text-[1.25rem]'>Our studio specializes in creating concepts of modern interior solutions and their subsequent implementation.</p>
             <p className='hidden md:flex pl-5 text-[1.25rem]'>We have a lot of experience, and it helps to easily solve any issues and keep abreast of trends.</p>
             <div className='md:flex items-center h-20 mt-5 gap-5 pl-5 hidden'>
-              <p className='text-[1.5rem]'>LEARN MORE</p>
-              <Link to='/about'>
+              <Link to='/about' className='flex items-center gap-5'>
+                <p className='text-[1.5rem] animated-underline'>LEARN MORE</p>
                 <CircleArrowRight className='size-10 hover:cursor-pointer'/>
               </Link>
             </div>
@@ -74,8 +74,8 @@ function Home() {
           </div>
         </div>
         {/* Stats */}
-        <div className='mt-20'>
-          <div className='grid grid-cols-2 pl-5 gap-10 md:flex md:justify-between'>
+        <div className='my-30'>
+          <div className='grid grid-cols-2 pl-5 gap-10 mb-10 md:flex md:justify-between'>
             <div className='w-40'>
               <p id='stat'>10+</p>
               <p id='statDesc'>years of work <br/> of our agancy</p>

@@ -19,17 +19,17 @@ function Navbar() {
           </div>
           <div>
             <ul className='gap-20 items-center hidden md:flex'>
-              <li className='hover:text-white'>
+              <li className='hover:text-white animated-underline'>
                 <Link to="/about">
                 <p>About</p>
                 </Link>
               </li>
-              <li className='hover:text-white'>
+              <li className='hover:text-white animated-underline'>
                 <Link to="/project">
                 <p>Projects</p>
                 </Link>
               </li>
-              <li className='hover:text-white'>
+              <li className='hover:text-white animated-underline'>
                 <Link to="/contact">
                 <p>Contact</p>
                 </Link>
