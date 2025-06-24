@@ -6,9 +6,9 @@ function AllProjectCard({imageUrl,ProjectName,Owner,Location}) {
         <div className='px-5 mb-20 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 '>
             <img src={imageUrl} className='mb-5'/>
             <div>
-                <p className='font-semibold text-2xl pb-3'>{ProjectName}</p>
-                <p className='font-semibold'>Owner : <span className='font-thin'>{Owner}</span></p>
-                <p className='font-semibold'>Location : <span className='font-thin'>{Location}</span></p>
+                <p className='projectcard text-2xl pb-3'>{ProjectName}</p>
+                <p className='projectcard'>Owner : <span className='font-thin'>{Owner}</span></p>
+                <p className='projectcard'>Location : <span className='font-thin'>{Location}</span></p>
             </div>
         </div>
     </div>

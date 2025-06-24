@@ -1,16 +1,36 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import MobileNav from './MobileNav';
 import DropDown from './DropDown';
 
 
 function Navbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
 
 
   return (
     <div className='flex justify-center'>
-        <nav className='container w-full flex justify-between items-center border-b-1 border-[#dcdcdc] fixed z-99'>
+        <nav className={`
+          container w-full flex justify-between items-center fixed z-50
+          ${isScrolled ? 'scrolled-nav' : 'border-b border-[#dcdcdc]'}
+        `}>
           <div className='flex justify-center items-center ml-5 mt-2 pb-2'>
             <Link to="/">
               <img

@@ -15,8 +15,9 @@ gsap.from("h3,p,input", {
 
 function ProjectCard({imageUrl,ProjectName,Owner,Location}) {
   return (
-    <div className='mt-10'>
-        <div className='border-b-1 md:flex pb-10'>
+    <div className='mt-10 '>
+        <div className='border-b-1 '>
+          <div className='md:flex pb-10 hover:cursor-pointer hover:scale-105 ease-in-out duration-200'>
             <img src={imageUrl} className='object-cover md:w-1/2'/>
             <div className='md:w-1/2 md:pl-10'>
                 <p id='projectNameStyling'>{ProjectName}</p>
@@ -27,6 +28,7 @@ function ProjectCard({imageUrl,ProjectName,Owner,Location}) {
                   <CircleArrowRight className='size-10 hover:cursor-pointer'/>
                 </Link>
             </div>
+          </div>
         </div>
     </div>
   )

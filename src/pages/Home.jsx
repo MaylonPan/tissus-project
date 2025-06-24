@@ -30,7 +30,6 @@ function Home() {
               <div>
                 <h6 className='text-[2rem]'>FROM OUR DESIGNER</h6>
                 <p className='text-[1rem] my-8'>Our studio guarantees comfortable cooperation and the development of modern concepts for your home</p>
-                {/* <CircleArrowRight className='md:hidden size-10 hover:cursor-pointer'/> */}
               </div>
             </div>
           </div>

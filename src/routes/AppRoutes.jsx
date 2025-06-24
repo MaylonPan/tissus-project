@@ -6,7 +6,7 @@ import Contact from '../pages/Contact.jsx';
 import ProjectAll from '../pages/projects/ProjectAll.jsx';
 import ProjectCondo from '../pages/projects/ProjectCondo.jsx';
 import ProjectHouse from '../pages/projects/ProjectHouse.jsx';
-import AstraSkyRiver from '../pages/projects/project-pages/AstraSkyRiver.jsx';
+import AstraSkyRiver from '../pages/projects/condominium/high-rise/AstraSkyRiver.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router"
 
 
