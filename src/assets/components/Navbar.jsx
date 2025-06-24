@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import MobileNav from './MobileNav';
+import DropDown from './DropDown';
 
 
 function Navbar() {
@@ -25,9 +26,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className='hover:text-white animated-underline'>
-                <Link to="/project">
-                <p>Projects</p>
-                </Link>
+                <DropDown/>
               </li>
               <li className='hover:text-white animated-underline'>
                 <Link to="/contact">

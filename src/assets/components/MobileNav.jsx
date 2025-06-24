@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import DropDown from './DropDown';
 
 import {
   Sheet,
@@ -31,7 +32,7 @@ function MobileNav() {
                         </Link>
                     </li>
                     <li className='hover:text-white'>
-                        <Link to="/project">
+                        <Link to="/projectall">
                         <p>Projects</p>
                         </Link>
                     </li>

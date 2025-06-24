@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
+import { Link } from 'react-router-dom';
 
 import {
   DropdownMenu,
@@ -21,15 +22,24 @@ function DropDown() {
     <div className=''>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <p className='animated-underline'>Projects</p>
+          <p className='hover:text-white'>Projects</p>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56 bg-[#444]" align="start">
+        <DropdownMenuContent className="w-56 bg-[#444] z-999" align="start">
           <DropdownMenuGroup>
-            <DropdownMenuItem className='text-[#dcdcdc]'>
-              Comdominium
+            <DropdownMenuItem asChild>
+              <Link to="/projectall" className='text-[#dcdcdc] hover:text-[#444]'>
+                All
+              </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem className='text-[#dcdcdc]'>
-              House
+            <DropdownMenuItem asChild>
+              <Link to="/projectcondo" className='text-[#dcdcdc] hover:text-[#444]'>
+                Comdominium
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link to="/projecthouse" className='text-[#dcdcdc] hover:text-[#444]'>
+                House
+              </Link>
             </DropdownMenuItem>
           </DropdownMenuGroup>
         </DropdownMenuContent>
