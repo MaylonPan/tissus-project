@@ -86,6 +86,70 @@ function ProjectAll() {
                   Location="Chiangmai"
                   />
                 </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/astra-sky-river'>
+                  <Allprojectcard
+                  imageUrl="/astra-sky-river/astra-sr5.jpg"
+                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+                  Owner="Ornsirin"
+                  Location="Chiangmai"
+                  />
+                </Link>
             </div>
           </div>
         </div>
