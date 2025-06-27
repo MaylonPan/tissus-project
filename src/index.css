@@ -17,7 +17,7 @@ body {
 
 h2 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h3 {
@@ -38,12 +38,28 @@ h6 {
     word-spacing: 5px;
 }
 
+.scrolled-nav {
+    background-color: #222;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom-color: transparent;
+    width: 100vw;
+
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
 #projectNameStyling {
     font-size: 2rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+#projectcard {
+    font-weight: 500;
+}
 
 #stat {
     font-size: 3rem;
@@ -57,6 +73,37 @@ h6 {
 #headerImg {
     opacity: 0.5;
 }
+
+.center-container {
+    display: flex; /* เปิดใช้งาน Flexbox */
+    justify-content: center; /* จัดกึ่งกลางในแนวนอน */
+    align-items: center;
+     /* จัดกึ่งกลางในแนวตั้ง (ถ้ามีพื้นที่เพียงพอ) */
+  
+    /* อาจจะกำหนดความสูงให้ container เพื่อให้เห็นผลการจัดกึ่งกลางแนวตั้ง */
+    /* min-height: 100vh; */ /* ถ้าต้องการจัดกึ่งกลางเต็มหน้าจอ */
+  }
+
+
+.video-responsive {
+    position: relative;
+     /* สำคัญ: เพื่อให้ iframe ภายในใช้ position: absolute; ได้ */
+    padding-bottom: 56.25%; /* นี่คือเคล็ดลับ! คำนวณจาก (height / width) * 100% */
+    /* สำหรับวิดีโอ 16:9 (9 / 16 = 0.5625) */
+    height: 0; /* กำหนดให้ความสูงเริ่มต้นเป็น 0 เพื่อให้ padding-bottom สร้างความสูง */
+    overflow: hidden; /* ซ่อนส่วนเกินหากมี */
+    max-width: 800px; /* ตัวอย่าง: วิดีโอจะกว้างไม่เกิน 800px */
+    width: 100%; /* ทำให้ div ไม่เกินความกว้างของ parent */
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่าง (ถ้าต้องการ) */
+  }
+
+  .video-responsive iframe {
+    position: absolute; /* ทำให้ iframe ลอยอยู่เหนือ content ปกติ */
+    top: 0;
+    left: 0;
+    width: 100%; /* ทำให้ iframe กว้างเต็ม div ที่ห่อ */
+    height: 100%; /* ทำให้ iframe สูงเต็ม div ที่ห่อ */
+  }
 
 .animated-underline{
   position: relative;

@@ -31,11 +31,14 @@ function DropDown() {
                 All
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
-              <Link to="/projectcondo" className='text-[#dcdcdc] hover:text-[#444]'>
-                Comdominium
-              </Link>
-            </DropdownMenuItem>
+            <DropdownMenuSub>
+            <DropdownMenuSubTrigger className='text-[#dcdcdc] hover:text-[#444]'>Condominium</DropdownMenuSubTrigger>
+            <DropdownMenuSubContent className='bg-[#444] text-[#dcdcdc]'>
+              <DropdownMenuItem>All</DropdownMenuItem>
+              <DropdownMenuItem>Low Rise</DropdownMenuItem>
+              <DropdownMenuItem>High Rise</DropdownMenuItem>
+            </DropdownMenuSubContent>
+          </DropdownMenuSub>
             <DropdownMenuItem asChild>
               <Link to="/projecthouse" className='text-[#dcdcdc] hover:text-[#444]'>
                 House

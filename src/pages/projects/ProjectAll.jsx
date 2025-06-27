@@ -18,7 +18,7 @@ function ProjectAll() {
     <div>
       <div className='max-w-[1440px] mx-auto'>
         <Navbar />
-        <div className='mt-30'>
+        <div className='mt-30 px-10'>
           <h2 className='pb-20 border-b-1'>Our Projects - All</h2>
           <div className='pt-20'>
             <div className=' grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10'>
