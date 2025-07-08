@@ -29,7 +29,7 @@ function Navbar() {
     <div className='flex justify-center'>
         <nav className={`
           container w-full flex justify-between items-center fixed z-50
-          ${isScrolled ? 'scrolled-nav' : 'border-b border-[#dcdcdc]'}
+          ${isScrolled ? 'scrolled-nav' : 'border-b border-[#dcdcdc] '}
         `}>
           <div className='flex justify-center items-center ml-5 mt-2 pb-2'>
             <Link to="/">
