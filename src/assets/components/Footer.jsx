@@ -23,7 +23,7 @@ function Footer() {
           <div className='flex flex-col gap-5'>
             <Link to='/' className='animated-underline'>HOME</Link>
             <Link to='/about' className='animated-underline'>ABOUT</Link>
-            <Link to='/project' className='animated-underline'>PROJECTS</Link>
+            <Link to='/projectall' className='animated-underline'>PROJECTS</Link>
             <Link to='/contact' className='animated-underline'>CONTACTS</Link>
           </div>
         </div>

@@ -150,27 +150,33 @@ function Home() {
             <p className='text-[3rem]'>COMPLETED PROJECTS</p>
           </div>
           <div className='mt-10'>
-            <ProjectCard
-            imageUrl="/astra-sky-river/astra-sr3.jpg"
-            ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-            Owner="Ornsirin"
-            Location="Chiangmai"
-            />
-            <ProjectCard
-            imageUrl="/wolf-house/wolf1.jpg"
-            ProjectName="PROJECT WOLF HOUSE"
-            Owner="The Crown"
-            Location="Chiangmai"
-            />
-            <ProjectCard
-            imageUrl="/arise-mahidol/arise-mahidol1.jpg"
-            ProjectName="ARISE CONDO @MAHIDOL"
-            Owner="Ornsirin"
-            Location="Chiangmai"
-            />
+            <Link to='/astra-sky-river'>
+              <ProjectCard
+              imageUrl="/astra-sky-river/astra-sr3.jpg"
+              ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
+              Owner="Ornsirin Group"
+              Location="Chiangmai"
+              />
+            </Link>
+            <Link to='/wolf-house'>
+              <ProjectCard
+              imageUrl="/wolf-house/wolf1.jpg"
+              ProjectName="PROJECT WOLF HOUSE"
+              Owner="The Crown"
+              Location="Chiangmai"
+              />
+            </Link>
+            <Link to='/arise-mahidol'>
+              <ProjectCard
+              imageUrl="/arise-mahidol/arise-mahidol1.jpg"
+              ProjectName="ARISE CONDO @MAHIDOL"
+              Owner="Ornsirin Group"
+              Location="Chiangmai"
+              />
+            </Link>
           </div>
           <div className='flex justify-end mt-10 mb-30 gap-5'>
-            <Link to='/project' className='flex items-center gap-5'>
+            <Link to='/projectall' className='flex items-center gap-5'>
               <p className='text-xl animated-underline'>More</p>
               <CircleArrowRight className='size-10 hover:cursor-pointer'/>
             </Link>

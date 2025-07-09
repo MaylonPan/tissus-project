@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from "../assets/components/Navbar.jsx";
 import Footer from '../assets/components/Footer.jsx';
 import { Facebook } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -45,7 +46,7 @@ function Contact() {
               <div className='pl-5 mt-10'>
               <div className='mb-5'>
                 <p className='font-semibold my-[5px] text-2xl'>Call us as this number :</p>
-                <p>+66 123 456 789</p>
+                <p>+66 81 801 8096</p>
               </div>
               <div className='mb-5'>
                 <p className='font-semibold my-[5px] text-2xl'>Location :</p>
@@ -53,11 +54,13 @@ function Contact() {
               </div>
               <div className='mb-5'>
                 <p className='font-semibold my-[5px] text-2xl'>Contact us by email :</p>
-                <p>test@testmail.com</p>
+                <p>tissus.d@gmail.com</p>
               </div>
               <div className='mb-5'>
                 <p className='font-semibold my-[5px] text-2xl'>Follow us on social networks :</p>
-                <Facebook className='hover:cursor-pointer'/>
+                <a href="https://www.facebook.com/TissusDesignStudio?locale=th_TH" target='_blank'>
+                  <Facebook className='hover:cursor-pointer'/>
+                </a>
               </div>
               </div>
             </div>

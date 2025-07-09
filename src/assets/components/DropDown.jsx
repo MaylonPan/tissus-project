@@ -32,16 +32,48 @@ function DropDown() {
               </Link>
             </DropdownMenuItem>
             <DropdownMenuSub>
-            <DropdownMenuSubTrigger className='text-[#dcdcdc] hover:text-[#444]'>Condominium</DropdownMenuSubTrigger>
-            <DropdownMenuSubContent className='bg-[#444] text-[#dcdcdc]'>
-              <DropdownMenuItem>All</DropdownMenuItem>
-              <DropdownMenuItem>Low Rise</DropdownMenuItem>
-              <DropdownMenuItem>High Rise</DropdownMenuItem>
-            </DropdownMenuSubContent>
-          </DropdownMenuSub>
+              <DropdownMenuSubTrigger className='text-[#dcdcdc] hover:text-[#444]'>Condominium</DropdownMenuSubTrigger>
+              <DropdownMenuSubContent className='bg-[#444] text-[#dcdcdc]'>
+                <DropdownMenuItem asChild>
+                  <Link to="/projectcondoall" className='text-[#dcdcdc] hover:text-[#444]'>
+                  All
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/projectcondolowrise" className='text-[#dcdcdc] hover:text-[#444]'>
+                  Low Rise
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/projectcondohighrise" className='text-[#dcdcdc] hover:text-[#444]'>
+                  High Rise
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuSubContent>
+            </DropdownMenuSub>
+            <DropdownMenuSub>
+              <DropdownMenuSubTrigger className='text-[#dcdcdc] hover:text-[#444]'>House</DropdownMenuSubTrigger>
+              <DropdownMenuSubContent className='bg-[#444] text-[#dcdcdc]'>
+                <DropdownMenuItem asChild>
+                  <Link to="/projecthouseall" className='text-[#dcdcdc] hover:text-[#444]'>
+                  All
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/projecthouse-housing-project" className='text-[#dcdcdc] hover:text-[#444]'>
+                  Housing Project
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/projecthouse-pool-villa" className='text-[#dcdcdc] hover:text-[#444]'>
+                  Pool Villa
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuSubContent>
+            </DropdownMenuSub>
             <DropdownMenuItem asChild>
-              <Link to="/projecthouse" className='text-[#dcdcdc] hover:text-[#444]'>
-                House
+              <Link to="/projecthotelall" className='text-[#dcdcdc] hover:text-[#444]'>
+                Hotel
               </Link>
             </DropdownMenuItem>
           </DropdownMenuGroup>
