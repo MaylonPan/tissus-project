@@ -1,8 +1,13 @@
 import React from 'react'
+import Dropdown from '../assets/components/DropDown.jsx'
+
+
 
 function Project() {
   return (
-    <div>project</div>
+    <div>
+      <Dropdown />
+    </div>
   )
 }
 
