@@ -2,7 +2,9 @@ import React from 'react'
 
 function ProjectCondo() {
   return (
-    <div>ProjectCondo</div>
+    <div>
+      
+    </div>
   )
 }
 

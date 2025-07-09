@@ -38,6 +38,10 @@ h6 {
     word-spacing: 5px;
 }
 
+imageUrl {
+    height: 100px;
+}
+
 .scrolled-nav {
     background-color: #222;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

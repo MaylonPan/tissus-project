@@ -26,127 +26,111 @@ function ProjectAll() {
                   <Allprojectcard
                   imageUrl="/astra-sky-river/astra-sr5.jpg"
                   ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  Owner="Ornsirin Group"
                   Location="Chiangmai"
                   />
                 </Link>
-                <Link to='/astra-sky-river'>
+                <Link to='/wolf-house'>
                   <Allprojectcard
                   imageUrl="/wolf-house/wolf1.jpg"
                   ProjectName="Wolf House"
-                  Owner="Ornsirin"
+                  Owner="The Crown"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/the-astra'>
+                  <Allprojectcard
+                  imageUrl="/the-astra/Astra-Rooftop.jpg"
+                  ProjectName="THE ASTRA CONDOMINUIM"
+                  Owner="Ornsirin Group"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/arise-mahidol'>
+                  <Allprojectcard
+                  imageUrl="/arise-mahidol/arise-mahidol1.jpg"
+                  ProjectName="Arise Condominium Mahidol"
+                  Owner="Ornsirin Group"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/arise-charoenmuang'>
+                  <Allprojectcard
+                  imageUrl="/arise-charoenmuang/arise-crm3.jpg"
+                  ProjectName="Arise Condominium Charoenmuang"
+                  Owner="Ornsirin Group"
+                  Location="Chiangmai"
+                  />
+                </Link>
+                <Link to='/pool-villa-samui'>
+                  <Allprojectcard
+                  imageUrl="/pool-villa-samui/type-b/pool-villa-samui-b-building-1.jpg"
+                  ProjectName="Pool Villa Samui"
+                  Owner="Surrounding Star Company Limited"
+                  Location="Samui"
+                  />
+                </Link>
+                <Link to='/belive-sansai'>
+                  <Allprojectcard
+                  imageUrl="/belive-sansai/type-plumeria/belive-sansai-plumeria-4.jpg"
+                  ProjectName="Belive Sansai-Maejo"
+                  Owner="Ornsirin Group"
                   Location="Chiangmai"
                   />
                 </Link>
                 <Link to='/astra-sky-river'>
                   <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  imageUrl="/b2-samoeng/b2-samoeng-building.jpg"
+                  ProjectName="B2 Samoeng"
+                  Owner="B2"
                   Location="Chiangmai"
                   />
                 </Link>
                 <Link to='/astra-sky-river'>
                   <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  imageUrl="/the-next-jedyod/next-jedyod-pool.jpg"
+                  ProjectName="The Next Jedyod"
+                  Owner="Ornsirin Group"
                   Location="Chiangmai"
                   />
                 </Link>
                 <Link to='/astra-sky-river'>
                   <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  imageUrl="/the-next-jedyod-2/The-next-jedyod2-pool.png"
+                  ProjectName="The Next Jedyod 2"
+                  Owner="Ornsirin Group"
                   Location="Chiangmai"
                   />
                 </Link>
                 <Link to='/astra-sky-river'>
                   <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  imageUrl="the-next-ruamchok-city-hall/the-next-ruam-chok-pool-2.png"
+                  ProjectName="The Next Ruamchok City Mall"
+                  Owner="Ornsirin Group"
                   Location="Chiangmai"
                   />
                 </Link>
                 <Link to='/astra-sky-river'>
                   <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  imageUrl="/moda-condo/moda-building.png"
+                  ProjectName="Moda Condominium"
+                  Owner="The Crown"
                   Location="Chiangmai"
                   />
                 </Link>
                 <Link to='/astra-sky-river'>
                   <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  imageUrl="/the-rachawong/rachawong-1.jpg"
+                  ProjectName="The Rachawong Hotel"
+                  Owner="Mr.Watson Jaowa"
                   Location="Chiangmai"
                   />
                 </Link>
                 <Link to='/astra-sky-river'>
                   <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
-                  Location="Chiangmai"
-                  />
-                </Link>
-                <Link to='/astra-sky-river'>
-                  <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
-                  Location="Chiangmai"
-                  />
-                </Link>
-                <Link to='/astra-sky-river'>
-                  <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
-                  Location="Chiangmai"
-                  />
-                </Link>
-                <Link to='/astra-sky-river'>
-                  <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
-                  Location="Chiangmai"
-                  />
-                </Link>
-                <Link to='/astra-sky-river'>
-                  <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
-                  Location="Chiangmai"
-                  />
-                </Link>
-                <Link to='/astra-sky-river'>
-                  <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
-                  Location="Chiangmai"
-                  />
-                </Link>
-                <Link to='/astra-sky-river'>
-                  <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
-                  Location="Chiangmai"
-                  />
-                </Link>
-                <Link to='/astra-sky-river'>
-                  <Allprojectcard
-                  imageUrl="/astra-sky-river/astra-sr5.jpg"
-                  ProjectName="THE ASTRA SKY RIVER CONDOMINUIM"
-                  Owner="Ornsirin"
+                  imageUrl="/suandok-kaew/suandok-kaew1.png"
+                  ProjectName="Suandok Kaew Hotel"
+                  Owner="คุณนพนธ์ นิธิธวัชพงค์"
                   Location="Chiangmai"
                   />
                 </Link>
@@ -160,3 +144,6 @@ function ProjectAll() {
 }
 
 export default ProjectAll
+
+
+

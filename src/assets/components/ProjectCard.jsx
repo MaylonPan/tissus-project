@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { CircleArrowRight } from 'lucide-react';
 
 
-gsap.from("h3,p,input", {
+gsap.from("p,input", {
     y: 100,
     opacity: 0,
     duration: 1,
